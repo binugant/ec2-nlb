@@ -5,3 +5,8 @@ output "ec2_public_ip" {
 output "nlb_dns_name" {
   value = module.nlb.dns_name
 }
+
+#########
+output "nlb_dns_name" {
+  value = module.nlb.nlb_dns_name
+}
